@@ -1,2 +1,3 @@
-# Student_Marks_Prediction
-This is a ML model . It predicts the marks of student that how much marks student can get if he study for 3 hours or 4 hours etc.
+Grade Prediction System 
+
+Developed a data-driven grade prediction system leveraging regression analysis to model academic performance based on variables like study hours, course load, and assignment rigor. The system employed multi-variable regression and feature engineering, adapting to evolving study patterns and providing actionable insights via a dashboard. This included personalized study plans and workload adjustments, empowering students to optimize their academic success.
