@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Home</title>
+    <link rel="stylesheet" type="text/css" href="{{url_for('static',filename='login1.css')}}">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+                <div class="logo"><a href="#"><span>Student Performance</span> Prediction Sysytem</a></div>
+                <input type="checkbox" id="menu-bar"/>
+                <label for="menu-bar"> Menu </label>
+                <div class="navigation">
+                    <label class="exit" for="menu-bar"> Exit </label>
+                    <ul class="menu">
+                        <li><a class="current" href="index.html">Home</a></li> 
+                        <li><a href="./HTML/About Me.html">Try Model</a></li>
+                        <li><a href="./HTML/My Services.html">Model Description</a></li>
+                </ul>
+            </div>
+            </div>
+        </nav>  
+    </header>
+
+    <main>
+        <div class="home-text">
+            <!-- <h1><div class="home_text_1"><span> WELCOME! to </span>  </div></h1> -->
+            <div class="home_text_2">Forsee</div>
+            <div class="home_text_2">Your Grade!</div>
+            <div class="home_text_3">a website that allows you to forecast your final grade, and helps you improve your learning journey.</div>
+            <form>
+                <div class="click-btn">
+                    <button class="button" formaction="{{ url_for('index') }}">Predict My Final Grade</button>
+                    <button class="button" formaction="{{ url_for('preview') }}">Improvement Tips</button>
+                </div>
+            </form>
+        </div>
+    </main>
+</body>
+</html>
+
